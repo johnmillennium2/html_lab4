@@ -1,0 +1,44 @@
+/*
+ filename: lab3.css
+ author: Marcus Rakkhit
+ created: 7/05/2025
+ last modified: 7/05/2025
+ description: lab 3 css file
+ */
+ 
+ /*font family for all elements*/
+ * {font-family: calabri, sans-serif; color:#2F4F4F;}
+ 
+ h1 {color:purple; font-size: 2em; font-weight:bold;}
+ 
+ h2 {color: rgb(0,128,128); font-size: 1.5em; font-weight:bold;}
+ 
+ /*only elements in this html group are affected*/
+ aside, footer {font-style: italic;}
+ 
+ h1, h2, h3 {font-family: arial, sans-serif;}
+ 
+ table, td, th {border: 1px solid black;}
+ 
+  /*only elements with this id are affected*/
+ #images {text-align: center;}
+ 
+ #lab3Heading {color:red;}
+ 
+ /*Multiple elements with this class are affected*/
+ .special {color: darkorange; font-weight: bold;}
+ 
+ .month {text-align: right;}
+ 
+ nav a {text-decoration: none; padding:0.2em 0.6em; border: 4px solid #ccc;}
+ 
+ ol {list-style-type: decimal;}
+ 
+ ul {list-style-type: disc;}
+ 
+ ol ul {list-style-type: square;}
+ 
+ /*when the mouse is hovering over this, it will disappear*/
+ aside:hover {visibility:hidden;}
+ 
+ nav a:hover {background-color: lightblue; border-color: darkblue;}
